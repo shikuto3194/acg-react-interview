@@ -1,0 +1,12 @@
+{
+  "decision": "no_change",
+  "reason": "このプロジェクトのknowledge lookupはno_match。今回の面接ビルドと公開で他プロジェクトにも適用する新しい事実はなかった。開始監査はpartialでmissing_startが5件報告されたが帰属未確認のため、過去作業の完了を補作しない。",
+  "used_ids": [],
+  "changed_ids": [],
+  "skipped_candidates": [],
+  "learning": {
+    "disposition": "none",
+    "note": "ACG固有の公開設定とDB状態はINTERVIEW_DEPLOYMENT.mdへ記録し、共通知識として複製しない。",
+    "evidence": []
+  }
+}

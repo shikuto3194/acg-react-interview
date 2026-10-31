@@ -1,0 +1,7 @@
+# 本番(Netlify)で /qa-proxy と /home-proxy を acgtcg.com 側にリバースプロキシ。
+# CORS を持たない acgtcg.com から QA / トップページの最新版を取得するためのもの。
+/qa-proxy    https://acgtcg.com/QA.html         200
+/home-proxy  https://acgtcg.com/                200
+/event-proxy https://acgtcg.com/index_event.html 200
+
+/*    /index.html   200

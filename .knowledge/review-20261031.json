@@ -1,0 +1,20 @@
+{
+  "changed_ids": [],
+  "learning": {
+    "evidence": [],
+    "note": "Auth UI変更はrepo固有であり、共通DB分離は継続中のため、現時点では追加の再利用知識として保存しない。",
+    "disposition": "none"
+  },
+  "reason": "3作品の面接作業を継続し、ACG/オリカの共通Auth資格情報変更をUIで止めた。Auth側の直接API制限やtenant DB分離は未完了で、確定した再利用知識はない。",
+  "skipped_candidates": [
+    {
+      "reason": "今回のAuth UI・面接用デプロイ作業とは無関係な目的優先の共通方針",
+      "id": "g.goal-first"
+    }
+  ],
+  "used_ids": [
+    "g.working-preferences",
+    "g.knowledge-workflow"
+  ],
+  "decision": "no_change"
+}

@@ -1,0 +1,1 @@
+{"decision":"no_change","reason":"面接用の3作業ツリーに限定した途中実装と検証で、他作業へ一般化できる確定事実は新たに得ていない。既存の配備資料へ未実装範囲を記載した。","used_ids":[],"changed_ids":[],"skipped_candidates":[],"learning":{"disposition":"none","note":"認証UI・素材読み込み制御は対象リポジトリ固有で、テナントDB/APIやクラウド運用は未検証のため再利用知識として登録しない。","evidence":[]}}

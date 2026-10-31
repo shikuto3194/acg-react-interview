@@ -1,21 +1,61 @@
-node_modules/
-dist/
-**/dist/
-.env
-.env.*
-!.env.example
-**/.env.*
-!**/.env.example
-.netlify/
-.knowledge/
-.codex-temp/
-.playwright-cli/
-artifacts/
-logs/
-output/
+# Logs
+logs
 *.log
-images/
-sounds/
-public/images/
-tmp_acg_html/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# 自動生成: scripts/generate-image-manifest.mjs (predev/prebuild で生成)
 src/imagesManifest.generated.js
+
+# 自動生成: scripts/build-home-data.mjs (predev/prebuild で生成)
+src/homeData.generated.js
+
+# 自動生成: scripts/build-qa-data.mjs (predev/prebuild で生成)
+src/qaData.generated.js
+
+# 画像は scripts/fetch-acg-images.mjs が acgtcg.com から取得する (prebuild で実行)
+# Git では管理せず、Netlify Build Cache (netlify-plugin-cache) で永続化する
+public/images/
+# 検証用途のローカル限定画像 (toliming temp/) は明示的にも除外。
+# 上の public/images/ で既にカバーされているが、意図を明示するため重ねて記載。
+public/images/toliming temp/
+
+# 過去のビルド成果物 (旧 GitHub Pages 用などの残骸)
+docs/
+
+# 公式 HTML のスナップショットキャッシュ (Netlify ビルドキャッシュで永続化)
+tmp_acg_html/
+
+# 環境変数 / 秘密情報 (将来的に .env を導入した場合の保険)
+.env
+.env.local
+.env.*.local
+
+# 誤って保存された一時 HTML 等
+UserskenshAppDataLocalTemptwitter-syndication.html
+*.tmp.html
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Claude Code のローカル個人設定 (チームで共有しない)
+.claude/settings.local.json
+
+.codex-temp/
+.netlify/
