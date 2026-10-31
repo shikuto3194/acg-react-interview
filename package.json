@@ -1,0 +1,62 @@
+{
+  "name": "orika-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "generate-images-manifest": "node scripts/generate-image-manifest.mjs",
+    "generate-qa-data": "node scripts/build-qa-data.mjs",
+    "generate-home-data": "node scripts/build-home-data.mjs",
+    "generate-card-data": "node scripts/build-card-data.mjs && npm run check-card-ids",
+    "check-card-ids": "node scripts/check-card-ids.mjs && node scripts/test-deck-id-migration.mjs",
+    "test:card-import": "node --test scripts/test-card-import.mjs scripts/test-reprint-migration.mjs scripts/test-card-sync.mjs",
+    "convert-images-to-webp": "node scripts/convert-images-to-webp.mjs",
+    "predev": "node scripts/convert-images-to-webp.mjs && node scripts/generate-image-manifest.mjs && node scripts/build-qa-data.mjs --offline && node scripts/build-home-data.mjs --offline",
+    "prebuild": "node scripts/fetch-acg-images.mjs && node scripts/convert-images-to-webp.mjs && node scripts/generate-image-manifest.mjs && node scripts/build-qa-data.mjs && node scripts/build-home-data.mjs && node scripts/check-card-ids.mjs && node scripts/test-deck-id-migration.mjs && npm run test:card-import && node scripts/reconcile-preview-cards.mjs",
+    "reconcile-preview-cards": "node scripts/reconcile-preview-cards.mjs",
+    "dev": "vite",
+    "build": "vite build",
+    "build:interview": "node scripts/interview-build.mjs",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "harness:preflight": "node scripts/harness.mjs preflight",
+    "harness:check": "node scripts/harness.mjs check",
+    "test": "node scripts/run-tests.mjs",
+    "check": "npm test && npm run check-card-ids && npm run test:card-import && npm run lint && npm run build:offline && npm run check:build",
+    "check:build": "node scripts/check-distribution.mjs",
+    "build:offline": "node scripts/convert-images-to-webp.mjs && node scripts/generate-image-manifest.mjs && node scripts/build-qa-data.mjs --offline && node scripts/build-home-data.mjs --offline && vite build",
+    "pretest": "node scripts/generate-image-manifest.mjs",
+    "security:install": "node scripts/security/install-hooks.mjs",
+    "security:scan": "node scripts/security/secrets.mjs history",
+    "security:test": "node scripts/security/test-secrets.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.98.0",
+    "jspdf": "^3.0.4",
+    "jsqr": "^1.4.0",
+    "pako": "^2.1.0",
+    "qrcode": "^1.5.4",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "react-router-dom": "^7.13.1",
+    "react-window": "^1.8.11",
+    "sharp-phash": "^2.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^5.1.2",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "netlify-plugin-cache": "^1.0.3",
+    "vite": "^7.2.7",
+    "sharp": "^0.35.5"
+  },
+  "homepage": ".",
+  "engines": {
+    "node": ">=22.12.0 <23"
+  }
+}

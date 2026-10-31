@@ -1,0 +1,14 @@
+title = "Repository secret guard"
+
+[extend]
+useDefault = true
+
+[[rules]]
+id = "generic-api-key"
+
+[[rules.allowlists]]
+description = "Public Supabase client keys in reviewed client/tool entrypoints (2026-10-30)"
+condition = "AND"
+paths = ['''^src/supabaseClient\.js$''', '''^scripts/fix-table-numbers\.mjs$''']
+regexTarget = "secret"
+regexes = ['''^sb_publishable_[A-Za-z0-9_-]+$''']

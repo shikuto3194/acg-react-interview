@@ -1,0 +1,17 @@
+{
+  "_sources": ["https://acgtcg.com/products_22.html", "https://acgtcg.com/cardlist_SD1.html", "https://acgtcg.com/cardlist_SD2.html", "https://acgtcg.com/text_correction.html"],
+  "_verifiedAt": "2026-10-05",
+  "_note": "TD以外の確認済み同名再録。運命の帰郷は訂正画像のあるBP2-038を残す。除外側の既存IDは予約を続け、生成する別名表で保存済みデッキを読み替える。",
+  "reprints": {
+    "ACG-152": "ACG-088",
+    "ACG-147": "BP2-038",
+    "BP6-077": "BP2-025",
+    "BP6-078": "BP2-063",
+    "BP6-079": "BP3-005",
+    "BP6-080": "BP1-035",
+    "RYO-019": "RYO-001",
+    "RYO-020": "RYO-002",
+    "RYO-021": "RYO-003",
+    "RYO-022": "RYO-004"
+  }
+}
