@@ -59,3 +59,27 @@ UserskenshAppDataLocalTemptwitter-syndication.html
 
 .codex-temp/
 .netlify/
+
+# Local environment files (keep examples and templates trackable)
+.env.*
+!.env.example
+!.env.*.example
+!.env.sample
+!.env.*.sample
+!.env.template
+!.env.*.template
+
+# Codex local credentials and conversation data
+**/.codex/auth.json
+**/.codex/auth.lock
+**/.codex/secrets/
+**/.codex/.sandbox-secrets/
+**/.codex/history.jsonl
+**/.codex/sessions/
+**/.codex/archived_sessions/
+**/.codex/session_index.jsonl*
+**/.codex/transcription-history.jsonl
+**/.codex/state_*.sqlite*
+**/.codex/logs_*.sqlite*
+**/.codex/thread_history_*.sqlite*
+**/.codex/log/
