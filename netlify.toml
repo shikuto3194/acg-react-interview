@@ -1,0 +1,48 @@
+# Netlify ビルド設定
+#
+# - prebuild フックで scripts/fetch-acg-images.mjs が acgtcg.com からカード画像を
+#   public/images/ にダウンロードする。
+# - public/images/ は .gitignore で除外 (218MB をリポジトリに含めない)。
+# - 代わりに netlify-plugin-cache でビルド間キャッシュとして永続化することで、
+#   2 回目以降のビルドでは差分のみダウンロードする。
+# - 同様に tmp_acg_html/ (公式 HTML のスナップショット) もキャッシュする。
+
+[build]
+  command = "npm run build:interview"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# 画像と HTML スナップショットをビルド間で永続化
+[[plugins]]
+  package = "netlify-plugin-cache"
+
+  [plugins.inputs]
+    paths = [
+      "public/images",
+      "tmp_acg_html",
+    ]
+
+# キャッシュヘッダ。
+# /images/* と /assets/* はファイル名に hash が付くので 1 年 immutable で良い。
+# それ以外 (index.html 等) は no-cache でデプロイの即時反映を優先。
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "no-cache"

@@ -1,0 +1,689 @@
+{
+  "_source": "https://acgtcg.com/products_22.html",
+  "_verifiedAt": "2026-09-25",
+  "_note": "公式商品ページのカード画像から確認した基本情報。詳細ページにテキストが公開されたカードは、そちらを優先する。BP6の効果テキストは未収録。",
+  "cards": {
+    "BP6-001": {
+      "name": "忌み子アニマ",
+      "cost": 1,
+      "conditionRaw": "無",
+      "type": "動物",
+      "tribe": "ドラゴン＆オオカミ",
+      "atk": 3,
+      "def": 2
+    },
+    "BP6-002": {
+      "name": "復讐のアニマ",
+      "cost": 3,
+      "conditionRaw": "平平無無／山山無無",
+      "type": "動物",
+      "tribe": "ドラゴン＆オオカミ",
+      "atk": 7,
+      "def": 6
+    },
+    "BP6-003": {
+      "name": "斥候ゴリラ",
+      "cost": 1,
+      "conditionRaw": "平／森",
+      "type": "動物",
+      "tribe": "ゴリラ",
+      "atk": 1,
+      "def": 1
+    },
+    "BP6-004": {
+      "name": "プライド・ゴリラ",
+      "cost": 3,
+      "conditionRaw": "森森",
+      "type": "動物",
+      "tribe": "ゴリラ",
+      "atk": 4,
+      "def": 2
+    },
+    "BP6-005": {
+      "name": "大猩々",
+      "cost": 4,
+      "conditionRaw": "平平／森森",
+      "type": "動物",
+      "tribe": "ゴリラ",
+      "atk": 4,
+      "def": 4
+    },
+    "BP6-006": {
+      "name": "筋肉の神髄",
+      "cost": 1,
+      "conditionRaw": "平／森",
+      "type": "特技",
+      "tribe": "ゴリラ"
+    },
+    "BP6-007": {
+      "name": "備える雷鳥",
+      "cost": 1,
+      "conditionRaw": "山",
+      "type": "動物",
+      "tribe": "ライチョウ",
+      "atk": 1,
+      "def": 1
+    },
+    "BP6-008": {
+      "name": "お淑やかな雷鳥",
+      "cost": 1,
+      "conditionRaw": "山山",
+      "type": "動物",
+      "tribe": "ライチョウ",
+      "atk": 1,
+      "def": 1
+    },
+    "BP6-009": {
+      "name": "肉冠の雷鳥",
+      "cost": 1,
+      "conditionRaw": "山山",
+      "type": "動物",
+      "tribe": "ライチョウ",
+      "atk": 1,
+      "def": 1
+    },
+    "BP6-010": {
+      "name": "番いの雷鳥",
+      "cost": 1,
+      "conditionRaw": "山",
+      "type": "特技",
+      "tribe": "ライチョウ"
+    },
+    "BP6-011": {
+      "name": "巡行する蠍",
+      "cost": 1,
+      "conditionRaw": "平",
+      "type": "動物",
+      "tribe": "サソリ",
+      "atk": 1,
+      "def": 1
+    },
+    "BP6-012": {
+      "name": "毒喰い",
+      "cost": 1,
+      "conditionRaw": "平",
+      "type": "動物",
+      "tribe": "サソリ",
+      "atk": 0,
+      "def": 1
+    },
+    "BP6-013": {
+      "name": "死毒の供与者",
+      "cost": 3,
+      "conditionRaw": "平",
+      "type": "動物",
+      "tribe": "サソリ",
+      "atk": 0,
+      "def": 4
+    },
+    "BP6-014": {
+      "name": "小蜘蛛",
+      "cost": 1,
+      "conditionRaw": "森",
+      "type": "動物",
+      "tribe": "クモ",
+      "atk": 1,
+      "def": 1
+    },
+    "BP6-015": {
+      "name": "樹皮蜘蛛",
+      "cost": 2,
+      "conditionRaw": "森",
+      "type": "動物",
+      "tribe": "クモ",
+      "atk": 2,
+      "def": 2
+    },
+    "BP6-016": {
+      "name": "大蜘蛛",
+      "cost": 3,
+      "conditionRaw": "森",
+      "type": "動物",
+      "tribe": "クモ",
+      "atk": 3,
+      "def": 4
+    },
+    "BP6-017": {
+      "name": "蜘蛛の孵化",
+      "cost": 2,
+      "conditionRaw": "森",
+      "type": "特技",
+      "tribe": "クモ"
+    },
+    "BP6-018": {
+      "name": "希少なゴビベア",
+      "cost": 1,
+      "conditionRaw": "平",
+      "type": "動物",
+      "tribe": "クマ",
+      "atk": 2,
+      "def": 2
+    },
+    "BP6-019": {
+      "name": "果敢な衛生兵",
+      "cost": 1,
+      "conditionRaw": "平",
+      "type": "動物",
+      "tribe": "チンチラ",
+      "atk": 0,
+      "def": 1
+    },
+    "BP6-020": {
+      "name": "舎弟の子分",
+      "cost": 1,
+      "conditionRaw": "平",
+      "type": "動物",
+      "tribe": "ミーアキャット",
+      "atk": 1,
+      "def": 1
+    },
+    "BP6-021": {
+      "name": "群れの用心棒",
+      "cost": 2,
+      "conditionRaw": "平",
+      "type": "動物",
+      "tribe": "ミーアキャット",
+      "atk": 2,
+      "def": 2
+    },
+    "BP6-022": {
+      "name": "コモドドラゴン",
+      "cost": 6,
+      "conditionRaw": "平平",
+      "type": "動物",
+      "tribe": "オオトカゲ",
+      "atk": 4,
+      "def": 4
+    },
+    "BP6-023": {
+      "name": "終焉",
+      "cost": 4,
+      "conditionRaw": "平平",
+      "type": "場面",
+      "tribe": ""
+    },
+    "BP6-024": {
+      "name": "起動停止",
+      "cost": 1,
+      "conditionRaw": "平",
+      "type": "特技",
+      "tribe": ""
+    },
+    "BP6-025": {
+      "name": "ヘビ男爵",
+      "cost": 1,
+      "conditionRaw": "山",
+      "type": "動物",
+      "tribe": "ヘビ",
+      "atk": 0,
+      "def": 1
+    },
+    "BP6-026": {
+      "name": "ヘビ法王",
+      "cost": 1,
+      "conditionRaw": "山山",
+      "type": "動物",
+      "tribe": "ヘビ",
+      "atk": 0,
+      "def": 2
+    },
+    "BP6-027": {
+      "name": "マーモット隊長",
+      "cost": 1,
+      "conditionRaw": "山",
+      "type": "動物",
+      "tribe": "マーモット",
+      "atk": 2,
+      "def": 1
+    },
+    "BP6-028": {
+      "name": "深き真理の探究者",
+      "cost": 2,
+      "conditionRaw": "山山山山",
+      "type": "動物",
+      "tribe": "ネコ",
+      "atk": 2,
+      "def": 1
+    },
+    "BP6-029": {
+      "name": "火の粉蝶",
+      "cost": 1,
+      "conditionRaw": "山山",
+      "type": "動物",
+      "tribe": "チョウ",
+      "atk": 1,
+      "def": 1
+    },
+    "BP6-030": {
+      "name": "日雷",
+      "cost": 4,
+      "conditionRaw": "山山",
+      "type": "場面",
+      "tribe": ""
+    },
+    "BP6-031": {
+      "name": "火山弾",
+      "cost": 2,
+      "conditionRaw": "山",
+      "type": "特技",
+      "tribe": ""
+    },
+    "BP6-032": {
+      "name": "飛び火",
+      "cost": 2,
+      "conditionRaw": "山",
+      "type": "特技",
+      "tribe": ""
+    },
+    "BP6-033": {
+      "name": "野焼き",
+      "cost": 2,
+      "conditionRaw": "山",
+      "type": "特技",
+      "tribe": ""
+    },
+    "BP6-034": {
+      "name": "蛸壺の女王",
+      "cost": 1,
+      "conditionRaw": "水",
+      "type": "動物",
+      "tribe": "タコ",
+      "atk": 0,
+      "def": 2
+    },
+    "BP6-035": {
+      "name": "希望の蛸壺",
+      "cost": 1,
+      "conditionRaw": "水",
+      "type": "道具",
+      "tribe": "タコ"
+    },
+    "BP6-036": {
+      "name": "暴走鮪",
+      "cost": 3,
+      "conditionRaw": "水水",
+      "type": "動物",
+      "tribe": "マグロ",
+      "atk": 4,
+      "def": 4
+    },
+    "BP6-037": {
+      "name": "再考",
+      "cost": 1,
+      "conditionRaw": "水",
+      "type": "特技",
+      "tribe": ""
+    },
+    "BP6-038": {
+      "name": "追い返し",
+      "cost": 1,
+      "conditionRaw": "水",
+      "type": "特技",
+      "tribe": ""
+    },
+    "BP6-039": {
+      "name": "大滝落とし",
+      "cost": 6,
+      "conditionRaw": "水水水水",
+      "type": "特技",
+      "tribe": ""
+    },
+    "BP6-040": {
+      "name": "森の住人",
+      "cost": 1,
+      "conditionRaw": "森",
+      "type": "動物",
+      "tribe": "クマ",
+      "atk": 1,
+      "def": 1
+    },
+    "BP6-041": {
+      "name": "幸福集めのネズミ",
+      "cost": 1,
+      "conditionRaw": "森",
+      "type": "動物",
+      "tribe": "ネズミカンガルー",
+      "atk": 1,
+      "def": 1
+    },
+    "BP6-042": {
+      "name": "森の投資者",
+      "cost": 1,
+      "conditionRaw": "森",
+      "type": "動物",
+      "tribe": "リス",
+      "atk": 1,
+      "def": 1
+    },
+    "BP6-043": {
+      "name": "森の調停者",
+      "cost": 2,
+      "conditionRaw": "森",
+      "type": "動物",
+      "tribe": "リス",
+      "atk": 1,
+      "def": 1
+    },
+    "BP6-044": {
+      "name": "生還の勇者",
+      "cost": 3,
+      "conditionRaw": "森森森",
+      "type": "動物",
+      "tribe": "ゾウ",
+      "atk": 7,
+      "def": 3
+    },
+    "BP6-045": {
+      "name": "深緑の生産者",
+      "cost": 3,
+      "conditionRaw": "森森",
+      "type": "動物",
+      "tribe": "クモ",
+      "atk": 1,
+      "def": 1
+    },
+    "BP6-046": {
+      "name": "反撃",
+      "cost": 1,
+      "conditionRaw": "森",
+      "type": "特技",
+      "tribe": ""
+    },
+    "BP6-047": {
+      "name": "大樹の中へ",
+      "cost": 1,
+      "conditionRaw": "森森",
+      "type": "特技",
+      "tribe": ""
+    },
+    "BP6-048": {
+      "name": "秘術",
+      "cost": 2,
+      "conditionRaw": "夜",
+      "type": "特技",
+      "tribe": ""
+    },
+    "BP6-049": {
+      "name": "刎断",
+      "cost": 2,
+      "conditionRaw": "夜",
+      "type": "特技",
+      "tribe": ""
+    },
+    "BP6-050": {
+      "name": "闇夜の謀略",
+      "cost": 2,
+      "conditionRaw": "夜",
+      "type": "特技",
+      "tribe": ""
+    },
+    "BP6-051": {
+      "name": "黒布",
+      "cost": 1,
+      "conditionRaw": "夜夜",
+      "type": "道具",
+      "tribe": ""
+    },
+    "BP6-052": {
+      "name": "勇気の軍曹",
+      "cost": 2,
+      "conditionRaw": "平山",
+      "type": "動物",
+      "tribe": "イヌ",
+      "atk": 1,
+      "def": 1
+    },
+    "BP6-053": {
+      "name": "猿武神",
+      "cost": 1,
+      "conditionRaw": "平／森",
+      "type": "動物",
+      "tribe": "サル",
+      "atk": 1,
+      "def": 1
+    },
+    "BP6-054": {
+      "name": "健啖な大百足",
+      "cost": 1,
+      "conditionRaw": "山森",
+      "type": "動物",
+      "tribe": "ムカデ",
+      "atk": 1,
+      "def": 1
+    },
+    "BP6-055": {
+      "name": "林火の衝撃",
+      "cost": 2,
+      "conditionRaw": "山森",
+      "type": "特技",
+      "tribe": ""
+    },
+    "BP6-056": {
+      "name": "増殖するプラナリア",
+      "cost": 2,
+      "conditionRaw": "水森",
+      "type": "動物",
+      "tribe": "プラナリア",
+      "atk": 0,
+      "def": 0
+    },
+    "BP6-057": {
+      "name": "刹那色のカメレオン",
+      "cost": 1,
+      "conditionRaw": "平山水",
+      "type": "動物",
+      "tribe": "カメレオン",
+      "atk": 0,
+      "def": 1
+    },
+    "BP6-058": {
+      "name": "駆け出しの煽動者",
+      "cost": 3,
+      "conditionRaw": "平山水",
+      "type": "動物",
+      "tribe": "ネコ",
+      "atk": 3,
+      "def": 1
+    },
+    "BP6-059": {
+      "name": "刹那の天啓",
+      "cost": 4,
+      "conditionRaw": "平平山山水水",
+      "type": "場面",
+      "tribe": ""
+    },
+    "BP6-060": {
+      "name": "白羽の矢",
+      "cost": 2,
+      "conditionRaw": "平山水",
+      "type": "場面",
+      "tribe": ""
+    },
+    "BP6-061": {
+      "name": "戦利のカラカル",
+      "cost": 3,
+      "conditionRaw": "平山森",
+      "type": "動物",
+      "tribe": "カラカル",
+      "atk": 3,
+      "def": 3
+    },
+    "BP6-062": {
+      "name": "運命の天啓",
+      "cost": 4,
+      "conditionRaw": "平平山山森森",
+      "type": "場面",
+      "tribe": ""
+    },
+    "BP6-063": {
+      "name": "抜き打ち検査",
+      "cost": 2,
+      "conditionRaw": "平山森",
+      "type": "特技",
+      "tribe": ""
+    },
+    "BP6-064": {
+      "name": "虚空掴み",
+      "cost": 1,
+      "conditionRaw": "平水森",
+      "type": "動物",
+      "tribe": "オポッサム",
+      "atk": 1,
+      "def": 3
+    },
+    "BP6-065": {
+      "name": "涙の天啓",
+      "cost": 4,
+      "conditionRaw": "平平水水森森",
+      "type": "場面",
+      "tribe": ""
+    },
+    "BP6-066": {
+      "name": "直感の表現",
+      "cost": 1,
+      "conditionRaw": "平水森",
+      "type": "場面",
+      "tribe": ""
+    },
+    "BP6-067": {
+      "name": "知略の大梟",
+      "cost": 3,
+      "conditionRaw": "山水森",
+      "type": "動物",
+      "tribe": "フクロウ",
+      "atk": 4,
+      "def": 4
+    },
+    "BP6-068": {
+      "name": "思い出の天啓",
+      "cost": 4,
+      "conditionRaw": "山山水水森森",
+      "type": "場面",
+      "tribe": ""
+    },
+    "BP6-069": {
+      "name": "知恵合わせ",
+      "cost": 2,
+      "conditionRaw": "山水森",
+      "type": "特技",
+      "tribe": ""
+    },
+    "BP6-070": {
+      "name": "死後の舞",
+      "cost": 2,
+      "conditionRaw": "平夜",
+      "type": "場面",
+      "tribe": ""
+    },
+    "BP6-071": {
+      "name": "神隠し",
+      "cost": 2,
+      "conditionRaw": "山夜",
+      "type": "特技",
+      "tribe": ""
+    },
+    "BP6-072": {
+      "name": "黒渦",
+      "cost": 2,
+      "conditionRaw": "水夜",
+      "type": "特技",
+      "tribe": ""
+    },
+    "BP6-073": {
+      "name": "進化の兆し",
+      "cost": 2,
+      "conditionRaw": "森夜",
+      "type": "場面",
+      "tribe": ""
+    },
+    "BP6-074": {
+      "name": "秘匿拠点",
+      "cost": 1,
+      "conditionRaw": "無",
+      "type": "縄張り",
+      "tribe": ""
+    },
+    "BP6-075": {
+      "name": "慈母の愛",
+      "cost": 2,
+      "conditionRaw": "無無無無",
+      "type": "道具",
+      "tribe": "ネコ"
+    },
+    "BP6-076": {
+      "name": "国落としの覇具",
+      "cost": 6,
+      "conditionRaw": "無無無無無無",
+      "type": "道具",
+      "tribe": ""
+    },
+    "BP6-077": {
+      "name": "熱烈な再演",
+      "cost": 1,
+      "conditionRaw": "水",
+      "type": "特技",
+      "tribe": "イルカ"
+    },
+    "BP6-078": {
+      "name": "葬祭",
+      "cost": 1,
+      "conditionRaw": "山／夜",
+      "type": "特技",
+      "tribe": ""
+    },
+    "BP6-079": {
+      "name": "聞猿",
+      "cost": 3,
+      "conditionRaw": "森",
+      "type": "動物",
+      "tribe": "サル",
+      "atk": 5,
+      "def": 3
+    },
+    "BP6-080": {
+      "name": "狂乱モグラ",
+      "cost": 1,
+      "conditionRaw": "森／夜",
+      "type": "動物",
+      "tribe": "モグラ",
+      "atk": 1,
+      "def": 1
+    },
+    "RYO-019": {
+      "name": "平野",
+      "ruby": "へいや",
+      "cost": "",
+      "conditionRaw": "",
+      "type": "領土",
+      "tribe": "基礎",
+      "effect": "《平野》\n〖起動（領地）〗［<ムーブ>して発動する。］これを夜にする。"
+    },
+    "RYO-020": {
+      "name": "山岳",
+      "ruby": "さんがく",
+      "cost": "",
+      "conditionRaw": "",
+      "type": "領土",
+      "tribe": "基礎",
+      "effect": "《山岳》\n〖起動（領地）〗［<ムーブ>して発動する。］これを夜にする。"
+    },
+    "RYO-021": {
+      "name": "水生",
+      "ruby": "すいせい",
+      "cost": "",
+      "conditionRaw": "",
+      "type": "領土",
+      "tribe": "基礎",
+      "effect": "《水生》\n〖起動（領地）〗［<ムーブ>して発動する。］これを夜にする。"
+    },
+    "RYO-022": {
+      "name": "森林",
+      "ruby": "しんりん",
+      "cost": "",
+      "conditionRaw": "",
+      "type": "領土",
+      "tribe": "基礎",
+      "effect": "《森林》\n〖起動（領地）〗［<ムーブ>して発動する。］これを夜にする。"
+    }
+  }
+}
