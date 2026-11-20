@@ -1,11 +1,29 @@
-# orika-react
+# ACGマネージャー
 
-このプロジェクトはVite＋Reactで構築されています。
-- カードリストの仮想リスト（バーチャルスクロール）・グリッド切替UIを搭載予定
-- `npm run dev` で開発サーバー起動
+ACGのカードを検索し、デッキを組んで保存・共有できる個人開発のWebアプリです。カード追加や再録でデータが更新されても、以前に保存したデッキを読み込めるようにしています。
+
+[面接用デモを開く](https://acg-react-interview-001.netlify.app/)（ログインが必要です）
+
+## できること
+
+- 一覧やグリッドからカードを探し、採用する枚数を調整してデッキを組む。
+- デッキを保存し、共有URL・QRコードやJSON・PNG・PDFで持ち出す。
+
+## 開発で担当したこと
+
+個人開発として、目的と仕様の整理、AIへの実装指示、改善方針の判断、動作確認を担当しました。コード作成にはAIを活用しています。
+
+## 設計の工夫
+
+- **保存デッキの互換性を保つ。** 以前はカードの通し番号が新弾追加でずれ、保存デッキのカードが別のカードに置き換わることがありました。固定ID表を導入し、旧形式のIDや再録カードのIDを読み込み時に対応するカードへ変換します。[固定ID表](scripts/card-id-map.json) · [旧IDの移行処理](src/utils/deckIdMigration.js)
+- **公式情報の更新途中を扱う。** 商品ページに画像だけが先行掲載された場合は確認済み情報を補い、公式カードリストに詳細テキストが加わったらそちらを優先します。再録の統合や取り込みをテストで確認します。[カード取り込みテスト](scripts/test-card-import.mjs) · [再録の移行テスト](scripts/test-reprint-migration.mjs)
+
+**主な技術**　JavaScript、React、Vite、jsPDF
 
 ## 開発サーバー起動方法
-```
+
+```bash
+npm ci
 npm run dev
 ```
 
@@ -71,16 +89,6 @@ BP6の同名再録と基礎領土の絵違いは除外し、「巡行する蠍�
 `--offline` はHTML・画像とも保存済みデータだけを使い、欠けていても通信しない。
 `--force` で画像を再取得して内容が変わった場合は、次のWebP変換で画像も更新される。
 
-## 主な依存
-- react
-- react-dom
-- react-window
-- vite
-
-## ESLint設定の拡張
-
-本プロジェクトでは、型ありのlintルールを有効にしたTypeScriptの使用を推奨しています。TypeScriptと[`typescript-eslint`](https://typescript-eslint.io)をプロジェクトに統合する方法については、[TSテンプレート](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts)を参照してください。
-
 ## 性能改善とローカル検証（2026-10-08）
 
 Node.js 22.12以降の22系を使用。
@@ -104,3 +112,8 @@ Chromiumの独立プロファイルで1280px／390pxの検索・枚数変更時�
 ## 認証情報の混入防止
 
 初回 clone 後は `npm run security:install` を実行してください。検査と検出時の対応は [SECURITY.md](SECURITY.md) を参照してください。
+
+## 関連作品
+
+- [幻想符 Simulator](https://github.com/shikuto3194/orica-simulator-interview)
+- [オリカマネージャー](https://github.com/shikuto3194/orika-react-interview)
