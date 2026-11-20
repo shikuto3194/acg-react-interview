@@ -128,3 +128,4 @@ Chromiumの独立プロファイルで1280px／390pxの検索・枚数変更時�
 
 - [幻想符 Simulator](https://github.com/shikuto3194/orica-simulator-interview)
 - [オリカマネージャー](https://github.com/shikuto3194/orika-react-interview)
+- [TCG マネージャー](https://github.com/shikuto3194/tcg-react)
