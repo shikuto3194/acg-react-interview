@@ -2,7 +2,7 @@
 
 ACGのカードを検索し、デッキを組んで保存・共有できる個人開発のWebアプリです。カード追加や再録でデータが更新されても、以前に保存したデッキを読み込めるようにしています。
 
-[面接用デモを開く](https://acg-react-interview-001.netlify.app/)（ログインが必要です）
+[デモを開く](https://acg-react-interview-001.netlify.app/)
 
 ## できること
 
