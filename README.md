@@ -4,6 +4,14 @@ ACGのカードを検索し、デッキを組んで保存・共有できる個�
 
 ## スマートフォンでの操作画面
 
+### 公式情報をまとめたホーム
+
+公式のお知らせ、新製品、公認イベントをホームに集約しています。初回表示にはビルド時に取得した情報を使い、ホームを開いたときに取得できた最新情報へ更新します。[お知らせ欄の実装](src/components/HomeOfficialNews.jsx)
+
+<img src="screenshots/mobile-official-news.webp" alt="ACGマネージャーのホームの縦画面。公式のお知らせと記事へのリンクを表示" width="360">
+
+### カード検索とデッキ構築
+
 | カード検索 | デッキ構築 |
 | --- | --- |
 | <img src="screenshots/mobile-search.webp" alt="スマートフォンの縦画面でカードを検索" width="280"> | <img src="screenshots/mobile-deck.webp" alt="スマートフォンの縦画面でデッキを構築" width="280"> |
